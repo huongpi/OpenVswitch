@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "unixctl.h": "c",
+        "nicira-ext.h": "c"
+    }
+}
