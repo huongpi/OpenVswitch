@@ -52,6 +52,7 @@ def columnGroupToNroff(table, groupXml, documented_columns):
                 raise error.Error("text follows <column> or <group> inside <group>: %s" % node)
             introNodes += [node]
 
+            
     summary = []
     intro = block_xml_to_nroff(introNodes)
     body = ''
